@@ -1,0 +1,41 @@
+body{
+    margin : 0 ; 
+    overflow: hidden;
+}
+#color{ 
+    width: 100px ;
+     
+}
+.toolbar{
+    height: 75px;
+    background-color: gray;
+    position: relative;
+}
+input[type = 'range']{
+    margin-top:5px; 
+}
+.clear{
+    position: absolute; 
+    bottom :5px ; 
+    right: 10px;
+}
+.background{
+    position: absolute;
+    top: 5px;
+    right : 10px ; 
+}
+#canvasColor{
+    width : 100px ;
+}
+.erase{
+    width : 70px ;
+    position: absolute ; 
+    right: 50% ;
+    bottom: 2%;
+}
+.pen{
+    width : 70px ;
+    position : absolute;
+    top : 0% ; 
+    right : 50% ; 
+}

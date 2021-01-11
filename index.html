@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <div class="toolbar">
+        <div>
+            <label for = 'color'>Pen Color </label>
+            <input type = "color" id = "color">
+            <button class="clear">Clear Canvas</button>
+        </div>
+        <div>
+            <label for="size" >Size</label>
+            <input id = 'size' type = 'range' min= '2' max="20" step="2" value = "10"><span class="output">10</span>
+        </div> 
+        <div class="background">
+            <label for = 'canvasColor'>Background : </label>
+            <input type = "color" id ="canvasColor">
+        </div>
+        <button class = "erase">Erase</button>
+        <button class = "pen">Pen</button>
+    </div>
+    <canvas></canvas>
+</body>
+</html>
